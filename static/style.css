@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0d0d0d;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #4a4a4a;
+}
+
+h1 {
+    color: #c8a2c8; /* A purplish color, reminiscent of AION's magic */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #0d0d0d;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #4a4a4a;
+}
