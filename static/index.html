@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AION Customer Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +14,18 @@
         <h1>AION Customer Service</h1>
     </header>
     <main>
-        <p>Welcome to the AION customer service page. How can we help you?</p>
+        <nav>
+            <button id="btn-shengdian" class="active">圣殿之战</button>
+            <button id="btn-huaijiu">怀旧服</button>
+        </nav>
+        <div id="content-shengdian" class="content-section">
+            <h2>圣殿之战版本指南</h2>
+            <p>这里是“圣殿之战”版本的内容。</p>
+        </div>
+        <div id="content-huaijiu" class="content-section" style="display: none;">
+            <h2>怀旧服版本指南</h2>
+            <p>这里是“怀旧服”版本的内容。</p>
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 AION. All rights reserved.</p>
